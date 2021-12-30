@@ -25,16 +25,18 @@ class Calculator extends Component {
   render() {
     console.log(Number);
     return (
-      <div className="calculator">
-        <input />
-        <div className="input_btn">
-          {Number.map((x) => {
-            return (
-              <button id={`input${x}`} key={`input${x}`}>
-                {x}
-              </button>
-            );
-          })}
+      <div className="container">
+        <div className="calculator">
+          <input type="number" defaultValue="0" />
+          <div className="input_btn">
+            {Number.map((x) => {
+              return (
+                <button id={`input${x}`} key={`input${x}`}>
+                  {x}
+                </button>
+              );
+            })}
+          </div>
         </div>
       </div>
     );

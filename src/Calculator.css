@@ -5,13 +5,23 @@ body {
     justify-content: center;
 }
 
+.container {
+    background-color: cadetblue;
+    border-radius: 2rem;
+}
+
+.calculator {
+    padding: 2rem;
+}
+
 .input_btn {
-    width: 15rem;
+    width: 16rem;
+    margin-top: 1.5rem;
 }
 
 button {
     background-color: grey;
-    width: 4rem;
+    width: 5rem;
     height: 4rem;
     margin: 0.1rem;
     font-weight: bold;
@@ -19,6 +29,13 @@ button {
 }
 
 input {
-    width: 12rem;
-    height: 2rem
+    width: 15rem;
+    height: 3rem;
+    text-align: right;
+    border: 0.2rem solid black
+}
+
+input::-webkit-inner-spin-button,
+input::-webkit-outer-spin-button {
+    -webkit-appearance: none
 }
