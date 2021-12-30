@@ -1,0 +1,24 @@
+body {
+    text-align: center;
+    display: grid;
+    align-items: center;
+    justify-content: center;
+}
+
+.input_btn {
+    width: 15rem;
+}
+
+button {
+    background-color: grey;
+    width: 4rem;
+    height: 4rem;
+    margin: 0.1rem;
+    font-weight: bold;
+    font-size: 2rem;
+}
+
+input {
+    width: 12rem;
+    height: 2rem
+}
