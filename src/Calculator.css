@@ -14,7 +14,12 @@ body {
     padding: 2rem;
 }
 
-.input_btn {
+.btn {
+    display: flex;
+}
+
+.input_btn,
+.operate_btn {
     width: 16rem;
     margin-top: 1.5rem;
 }
@@ -29,7 +34,7 @@ button {
 }
 
 input {
-    width: 15rem;
+    width: 25rem;
     height: 3rem;
     text-align: right;
     border: 0.2rem solid black;
